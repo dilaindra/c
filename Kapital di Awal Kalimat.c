@@ -20,7 +20,6 @@ int main(){
 		if(kata[i] == ' '){
 			kata[i+1] = toupper(kata[i+1]);
 		}
-		printf("%d\n", i);
 	}
 	
 	printf("%s", kata);
